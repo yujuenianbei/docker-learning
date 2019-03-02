@@ -1,5 +1,7 @@
 # centos
 
+https://blog.csdn.net/fzh90/article/details/46795683
+
 ## 安装git 
 
 https://blog.csdn.net/caimengyuan/article/details/80634752
