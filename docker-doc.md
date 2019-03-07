@@ -139,5 +139,6 @@ push镜像
 容器地址：/home/node  
 本机地址：/home/ubuntu/demo/nodeServer
 
-
+    
+    docker run -it -p20180:80   -p20181:8080  -p20182:8976 --name containerName image:tag
     docker run -it -p 127.0.0.1:3001:3000 -v /home/ubuntu/demo/nodeServer:/home/node yujuenianbeicentos:0.1 /bin/bash
