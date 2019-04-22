@@ -144,3 +144,5 @@ push镜像
     docker run -it -p 127.0.0.1:3001:3000 -v /home/ubuntu/demo/nodeServer:/home/node yujuenianbeicentos:0.1 /bin/bash
     
     docker run -it -p3000:3000 -p3001:3001 --link mymysql:db -v /home/ubuntu/demo/ManageFIleGuide:/home/node --name mycentos yujuenianbei/yujuenianbeicentos /bin/bash
+    
+    https://www.jianshu.com/p/f72154e54321
