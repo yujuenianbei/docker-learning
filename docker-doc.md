@@ -145,6 +145,8 @@ push镜像
     
     docker run -it -p3000:3000 -p3001:3001 --link mymysql:db -v /home/ubuntu/demo/ManageFIleGuide:/home/node --name mycentos yujuenianbei/yujuenianbeicentos /bin/bash
     
+    docker run -it -p3000:3000 -p3001:3001 -p3002:3002 -p3003:3003 -p3004:3004 -p3005:3005 --link mymysql:db -v /home/ubuntu/demo/ManageFIleGuide:/home/node --name mycentos yujuenianbei/yujuenianbeicentos /bin/bash
+    
     docker run -d --name mymysql --rm -p 3400:3306 -e MYSQL_ROOT_PASSWORD=123456 mysql:5.7
     
     https://www.jianshu.com/p/f72154e54321
