@@ -149,6 +149,16 @@ push镜像
     
     docker run -d --name mymysql --rm -p 3400:3306 -e MYSQL_ROOT_PASSWORD=123456 mysql:5.7
     
+    docker run -d -p 8082:80 --name nginx -v D:/FrontEnd/github/ManageFIleGuide/nginx:/usr/share/nginx/html -v D:/FrontEnd/github/ManageFIleGuide/nginx/conf/nginx.conf:/etc/nginx/nginx.conf -v D:/FrontEnd/github/ManageFIleGuide/nginx/logs:/var/log/nginx nginx
+
+docker run -d --name mysql --rm -p 3400:3306 -e MYSQL_ROOT_PASSWORD=123456 registry.cn-hangzhou.aliyuncs.com/hhzz/mysql
+
+docker run -p 3306:3306 --name mysql -v ~/mysql/conf/my.cnf:/etc/mysql/my.cnf -v ~/mysql/logs:/logs -v ~/mysql/data:/mysql_data -e MYSQL_ROOT_PASSWORD=123456  -d registry.cn-hangzhou.aliyuncs.com/hhzz/mysql
+
+docker run -it -p3000:3000 -p3001:3001 -p3002:3002 -p3003:3003 -p3004:3004 -p3005:3005 -p3006:3006 -p3007:3007 -p3008:3008 -p3009:3009  --link mysql:db -v D:/FrontEnd/github/ManageFIleGuide:/home/node --name mycentos yujuenianbei/yujuenianbeicentos /bin/bash
+    
     https://www.jianshu.com/p/f72154e54321
     
     https://www.decathloncustom.cn/en_us/?___from_store=zh_cn
+
+
