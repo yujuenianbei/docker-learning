@@ -1,0 +1,22 @@
+        
+        app/design/frontend/HPOLS/default/Magento_Customer/web/css/source/_module.less 200
+        input[type="radio"] {
+            .hp-radio();
+            float: left;
+            margin-top: 0;
+            margin-right: 10px;
+        }
+
+
+
+现在所有的测试站点的phpadmin地址
+hpdev    http://192.168.1.7:8001/hpdevmysqladmin/
+
+hpupgrade
+http://192.168.1.7:8002/hpupgrademysqladmin/
+
+hplamuat
+http://192.168.1.7:8003/hpolslatampromysqladmin/
+
+allpentest(cs.hp.php9.cc)
+http://192.168.1.7:8004/hpolslatampromysqladmin/
